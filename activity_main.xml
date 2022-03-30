@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FullName" />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MobileNo"  />
+
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"/>
+
+    <EditText
+        android:id="@+id/ed5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"/>
+
+    <EditText
+        android:id="@+id/ed6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DOB"/>
+
+    <EditText
+        android:id="@+id/ed7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Submit"
+        android:onClick="click"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:text="Cancel"
+        android:onClick="cancel"/>
+</LinearLayout>
